@@ -1,0 +1,64 @@
+@import "@/styles/variables.scss";
+
+.headerBackground {
+  background-color: $homeBackgroundColor;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 60vh;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 0 auto;
+
+  .headerContainerLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    .headerLogoIcon {
+      margin-right: 10px;
+    }
+
+    .headerLogoText {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 39px;
+
+      color: $textColor;
+
+      text-shadow: $textShadow;
+    }
+  }
+
+  .headerContainerProfile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    .headerProfileIcon {
+      margin-right: 10px;
+    }
+
+    .headerProfileText {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: $textColor;
+
+      text-shadow: $textShadow;
+      padding-bottom: 6px;
+    }
+  }
+}
