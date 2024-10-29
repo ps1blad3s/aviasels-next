@@ -8,7 +8,6 @@ const HomePage: React.FC = () => {
   return (
     <>
       <div className={styles.backgroundContainer}>
-        <div className={styles.backgroundContainerTwo}>
           <Header />
           <div style={{ padding: "20px" }}>
             <FlightForm />
@@ -24,7 +23,6 @@ const HomePage: React.FC = () => {
             ))}
           </div>
         </div>
-      </div>
     </>
   );
 };

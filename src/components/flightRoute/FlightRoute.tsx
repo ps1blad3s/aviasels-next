@@ -18,7 +18,7 @@ export function FlightRoute({ duration, departure, arrival }: FlightRouteProps) 
             />
             <div className="flex gap-9 justify-between items-start">
                 <FlightSegment {...departure} />
-                <div className="flex overflow-hidden flex-col min-h-[65px]">
+                <div className="flex overflow-hidden flex-col mt-5">
                     <div className="flex overflow-hidden gap-10 justify-between items-center">
                         <img
                             loading="lazy"
@@ -26,7 +26,8 @@ export function FlightRoute({ duration, departure, arrival }: FlightRouteProps) 
                             alt=""
                             className="object-contain shrink-0 w-4 aspect-square"
                         />
-                        <p>{duration}</p>
+                        <p className="text-[13px] leading-[16px] text-[rgba(0,0,0,0.60)]">{duration}</p>
+
                         <img
                             loading="lazy"
                             src="https://cdn.builder.io/api/v1/image/assets/1e345aa14a984e489cf3a62f18e0e5cd/af640d2964e83b91510de9310c8c7e09dd64477250d2f67ed7a709e48a0f4718?apiKey=1e345aa14a984e489cf3a62f18e0e5cd&"

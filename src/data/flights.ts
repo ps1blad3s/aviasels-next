@@ -14,8 +14,8 @@ export const flightCards: FlightCardProps[] = [
                     airportCode: "KUF"
                 },
                 arrival: {
-                    time: "23:59",
-                    city: "Самара",
+                    time: "21:13",
+                    city: "Казань",
                     date: "14 ноя, вт",
                     airportCode: "AUR"
                 }
@@ -29,8 +29,8 @@ export const flightCards: FlightCardProps[] = [
                     airportCode: "KUF"
                 },
                 arrival: {
-                    time: "23:59",
-                    city: "Самара",
+                    time: "21:13",
+                    city: "Казань",
                     date: "14 ноя, вт",
                     airportCode: "AUR"
                 }
@@ -51,7 +51,7 @@ export const flightCards: FlightCardProps[] = [
                 },
                 arrival: {
                     time: "10:45",
-                    city: "Санкт-Петербург",
+                    city: "Казань",
                     date: "15 ноя, ср",
                     airportCode: "LED"
                 }
